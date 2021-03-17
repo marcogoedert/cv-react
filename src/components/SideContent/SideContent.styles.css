@@ -1,0 +1,42 @@
+.aside {
+    padding-right: 57px;
+    min-width: 240px;
+}
+
+@media (max-width: 767px) {
+    aside {
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+
+.profile-img-wrapper {
+    text-align: center;
+}
+.profile-img-wrapper img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+
+.profile-designation {
+    line-height: 25px;
+    color: black;
+    font-weight: 500;
+    /*padding: 5px 25px !important;*/
+}
+
+.designation-badge {
+    font-size: 12px;
+    padding: 5px 25px !important;
+    margin-bottom: 10px !important;
+    box-shadow: none !important;
+}

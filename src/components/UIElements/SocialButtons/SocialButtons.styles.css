@@ -1,0 +1,22 @@
+.social-links {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.social-links .social-link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #0067f6;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.social-links .social-link:last-child {
+    margin-right: 0;
+}

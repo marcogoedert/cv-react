@@ -1,0 +1,14 @@
+.card-container {
+    flex-grow: 1;
+    padding: 36px 60px 24px;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+    card-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+.col-bg {
+    padding: 1rem;
+    background-color: #fff;
+    border: 2px solid #f3f3f3;
+    color: black;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0;
+    /*font-family: "Mukta", sans-serif;*/
+    /*font-size: 1rem;*/
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    background-color: #f3f3f3;
+    padding: 20px 60px;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+}

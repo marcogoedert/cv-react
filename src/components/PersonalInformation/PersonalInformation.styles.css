@@ -1,0 +1,35 @@
+.widget {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.widget .widget-title {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.widget-content {
+    font-size: 13px;
+}
+
+.widget .widget-content p {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.widget .widget-content p:last-of-type {
+    margin-bottom: 10px;
+}
+
+.widget .download-btn {
+    border-radius: 20px !important;
+    width: 100%;
+    padding: 8px 0px;
+    background-color: #0067f6 !important;
+}
+
+.widget .download-btn-icon1 {
+    font-weight: 400;
+}
